@@ -116,11 +116,70 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+    @apply font-sans;
   }
+}
+
+@theme {
+  --color-Black-50: #f6f6f6;
+  --color-Black-100: #e7e7e7;
+  --color-Black-200: #d1d1d1;
+  --color-Black-300: #b0b0b0;
+  --color-Black-400: #888888;
+  --color-Black-500: #6d6d6d;
+  --color-Black-600: #5d5d5d;
+  --color-Black-700: #4f4f4f;
+  --color-Black-800: #454545;
+  --color-Black-900: #3d3d3d;
+  --color-Black-950: #000000;
+  --color-Biscay-50: #eff7ff;
+  --color-Biscay-100: #dbedfe;
+  --color-Biscay-200: #bfe1fe;
+  --color-Biscay-300: #92cffe;
+  --color-Biscay-400: #5fb3fb;
+  --color-Biscay-500: #3a93f7;
+  --color-Biscay-600: #2374ed;
+  --color-Biscay-700: #1c5ed9;
+  --color-Biscay-800: #1d4cb0;
+  --color-Biscay-900: #1d448b;
+  --color-Biscay-950: #182d5a;
+  --color-Saffron-Mango-50: #fef8ec;
+  --color-Saffron-Mango-100: #fbecca;
+  --color-Saffron-Mango-200: #f8d98f;
+  --color-Saffron-Mango-300: #f4c159;
+  --color-Saffron-Mango-400: #f1a92e;
+  --color-Saffron-Mango-500: #ea8716;
+  --color-Saffron-Mango-600: #cf6410;
+  --color-Saffron-Mango-700: #ac4511;
+  --color-Saffron-Mango-800: #8c3714;
+  --color-Saffron-Mango-900: #732d14;
+  --color-Saffron-Mango-950: #421506;
+  --color-Ironstone-50: #fbf6f5;
+  --color-Ironstone-100: #f6ebea;
+  --color-Ironstone-200: #f0dad8;
+  --color-Ironstone-300: #e5c0bc;
+  --color-Ironstone-400: #d49a95;
+  --color-Ironstone-500: #c17972;
+  --color-Ironstone-600: #ab5e57;
+  --color-Ironstone-700: #8a4a44;
+  --color-Ironstone-800: #77423d;
+  --color-Ironstone-900: #653b37;
+  --color-Ironstone-950: #351c1a;
+  --color-Dark_Paragraph: #363f52;
+  --color-Dark_One: #1f1f25;
+  --color-Dark_Two: #1b1f28;
 }
