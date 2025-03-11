@@ -34,10 +34,11 @@ const WhyCooseUs = () => {
             <Image src={map} alt="" className="w-14 h-14" />
             <div className="flex flex-col gap-2.5">
               <h3 className="text-lg md:text-2xl font-medium text-Saffron-Mango-950 lg:text-Black-950">
-                On-Time Deliveries:
+                Real-Time Tracking
               </h3>
               <p className="text-base font-normal text-Saffron-Mango-900 lg:text-Black-950">
-                Get your goods where they need to be—right on schedule.
+                Stay informed at every step with seamless access on mobile or
+                desktop.
               </p>
             </div>
           </div>
@@ -50,10 +51,10 @@ const WhyCooseUs = () => {
             <Image src={laptop} alt="" className="w-14 h-14" />
             <div className="flex flex-col gap-2.5">
               <h3 className="text-lg md:text-2xl font-medium text-Ironstone-950 lg:text-Black-950">
-                On-Time Deliveries:
+                Simple Dashboard
               </h3>
               <p className="text-base font-normal text-Ironstone-900 lg:text-Black-950">
-                Get your goods where they need to be—right on schedule.
+                Manage all your logistics needs from one intuitive platform.
               </p>
             </div>
           </div>
@@ -61,10 +62,10 @@ const WhyCooseUs = () => {
             <Image src={dollar} alt="" className="w-14 h-14" />
             <div className="flex flex-col gap-2.5">
               <h3 className="text-lg md:text-2xl font-medium text-Black-95">
-                On-Time Deliveries:
+                Transparent Pricing
               </h3>
               <p className="text-base font-normal text-Black-900 lg:text-Black-950">
-                Get your goods where they need to be—right on schedule.
+                Plan with confidence, knowing there are no hidden fees
               </p>
             </div>
           </div>
