@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative w-6xl z-10 flex flex-col md:items-center justify-center gap-3 md:text-center px-5 md:px-6">
+      <div className="container relative w-6xl z-10 flex flex-col md:items-center justify-center gap-3 md:text-center px-5 md:px-6">
         <div className="flex flex-col gap-3">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-medium text-white leading-tight">
             SwiftCargo - Reliable Logistics, On Time, Every Time.
