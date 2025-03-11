@@ -31,23 +31,24 @@ const footerLinks = [
 const Footer = () => {
   return (
     <footer className="bg-Biscay-50 text-white">
-      <div className="container mx-auto px-6 py-10">
-
+      <div className="container mx-auto px-6 py-10 pt-20 flex flex-col gap-12 md:gap-16">
         {/* LOGO */}
-      <Link href="/">
-        <Image src={Logo} alt="swiftcargo_logo" className="w-32" />
-      </Link>
+        <Link href="/">
+          <Image src={Logo} alt="swiftcargo_logo" className="w-32" />
+        </Link>
 
         <div className="grid gap-8 md:grid-cols-3">
           {footerLinks.map((section) => (
             <div key={section.title}>
-              <h3 className="mb-4 text-lg font-semibold">{section.title}</h3>
+              <h3 className="mb-4 text-lg font-semibold text-Dark_Two">
+                {section.title}
+              </h3>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors"
+                      className="text-Biscay-950 transition-colors hover:underline"
                     >
                       {link.name}
                     </Link>
@@ -63,12 +64,14 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-sm">&copy; {new Date().getFullYear()} YourCompany. All rights reserved.</p>
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} YourCompany. All rights reserved.
+          </p>
           <nav className="flex gap-4">
-            <Link href="/privacy" className="text-gray-400 hover:text-white">
+            <Link href="/privacy" className="text-Biscay-900 hover:underline">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-gray-400 hover:text-white">
+            <Link href="/terms" className="text-Biscay-900 hover:underline">
               Terms of Service
             </Link>
           </nav>
@@ -76,6 +79,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

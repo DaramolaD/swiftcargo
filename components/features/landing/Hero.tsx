@@ -28,15 +28,15 @@ const Hero = () => {
             sure it happens—without delays, hidden fees, or guesswork.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-3 mt-4">
+        <div className="flex flex-col sm:flex-row gap-3 mt-4">
           <Button
             variant="default"
             size="lg"
-            className="shadow-2xl hover:text-white/60 transition-all duration-300 ease-in-out"
+            className="shadow-2xl w-fit hover:text-white/60 transition-all duration-300 ease-in-out"
           >
             Track Your Shipment
           </Button>
-          <Button variant="secondary" size="lg" className="shadow-2xl">
+          <Button variant="secondary" size="lg" className="shadow-2xl w-fit">
             Get a Free Quote
           </Button>
         </div>
