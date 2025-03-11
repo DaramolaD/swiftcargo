@@ -1,4 +1,6 @@
+import BusinessStats from "@/components/features/landing/BusinessStats";
 import Hero from "@/components/features/landing/Hero";
+import HowItWorks from "@/components/features/landing/HowItWorks";
 import LogisticsProblems from "@/components/features/landing/LogisticsProblems";
 import OurPartners from "@/components/features/landing/OurPartners";
 import Solutions from "@/components/features/landing/Solutions";
@@ -14,6 +16,8 @@ export default function Home() {
       <SwiftCargoSolution />
       <Solutions />
       <WhyCooseUs />
+      <HowItWorks />
+      <BusinessStats />
     </>
   );
 }
