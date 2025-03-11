@@ -5,7 +5,7 @@ import worryLady from "@/public/worrrylady.png";
 const LogisticsProblems = () => {
   return (
     <section className="container mx-auto py-20 flex flex-col items-center px-5 md:px-6">
-      <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-6 md:gap-12">
+      <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-20 md:gap-12">
         <div className="flex flex-col gap-6">
           <h3 className="text-2xl md:text-3xl font-medium text-Dark_One">
             “Are These Logistics Problems Slowing You Down?“
@@ -42,7 +42,7 @@ const LogisticsProblems = () => {
         <Image
           src={worryLady}
           alt="worryLady"
-          className="w-full h-full max-h-[617px] object-cover"
+          className="w-full h-full max-h-[617px] object-cover rounded-lg"
         />
       </div>
     </section>
