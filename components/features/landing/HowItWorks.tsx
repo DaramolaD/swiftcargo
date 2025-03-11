@@ -43,7 +43,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 flex flex-col md:items-center px-5 md:px-6">
+    <section className="py-20 flex flex-col md:items-center px-5 md:px-6 bg-Biscay-50">
       <div className="container flex flex-col gap-10 mx-auto px-5 md:px-6">
         <div className="flex flex-col md:items-center text-left md:text-center gap-4 md:gap-5">
           <h2 className="text-2xl md:text-3xl font-medium text-Dark_One">
@@ -57,7 +57,7 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="flex flex-col md:items-center gap-8 py-10 px-5 md:p-10 border rounded-lg"
+              className="flex flex-col bg-white md:items-center gap-8 py-10 px-5 md:p-10 border rounded-lg"
             >
               <p
                 className={`w-fit text-2xl md:text-3xl p-5 font-medium flex items-center justify-center ${step.textColor} ${step.bgColor} rounded-full`}

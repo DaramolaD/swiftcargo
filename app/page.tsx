@@ -1,4 +1,5 @@
 import BusinessStats from "@/components/features/landing/BusinessStats";
+import CTA from "@/components/features/landing/CTA";
 import Hero from "@/components/features/landing/Hero";
 import HowItWorks from "@/components/features/landing/HowItWorks";
 import LogisticsProblems from "@/components/features/landing/LogisticsProblems";
@@ -18,6 +19,7 @@ export default function Home() {
       <WhyCooseUs />
       <HowItWorks />
       <BusinessStats />
+      <CTA />
     </>
   );
 }
