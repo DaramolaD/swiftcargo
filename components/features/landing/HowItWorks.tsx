@@ -44,7 +44,7 @@ const HowItWorks = () => {
 
   return (
     <section className="py-20 flex flex-col md:items-center px-5 md:px-6 bg-Biscay-50">
-      <div className="container flex flex-col gap-10 mx-auto px-5 md:px-6">
+      <div className="container flex flex-col gap-10 md:gap-20 mx-auto px-5 md:px-6">
         <div className="flex flex-col md:items-center text-left md:text-center gap-4 md:gap-5">
           <h2 className="text-2xl md:text-3xl font-medium text-Dark_One">
             How It Works - Simple & Hassle-Free
@@ -66,7 +66,7 @@ const HowItWorks = () => {
               </p>
 
               <div className="flex flex-col gap-2.5">
-                <div className="flex flex-col sm:flex-row md:items-center gap-2.5">
+                <div className="flex flex-col sm:flex-row items-center gap-2.5">
                   <Image src={step.icon} alt="Step icon" className="size-10" />
                   <p className="text-xl md:text-2xl font-medium text-Dark_One">
                     {step.title}

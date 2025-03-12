@@ -37,7 +37,7 @@ const BusinessStats = () => {
   ];
   return (
     <section className="py-20 flex flex-col md:items-center px-5 md:px-6">
-      <div className="container flex flex-col gap-10 md:gap-14 mx-auto px-5 md:px-6">
+      <div className="container flex flex-col gap-10 md:gap-20 mx-auto px-5 md:px-6">
         <div className="flex flex-col md:items-center text-left md:text-center gap-4 md:gap-5">
           <h2 className="text-2xl md:text-3xl font-medium text-Dark_One">
             Trusted by Businesses Nationwide.

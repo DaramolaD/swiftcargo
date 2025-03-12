@@ -6,6 +6,7 @@ import LogisticsProblems from "@/components/features/landing/LogisticsProblems";
 import OurPartners from "@/components/features/landing/OurPartners";
 import Solutions from "@/components/features/landing/Solutions";
 import SwiftCargoSolution from "@/components/features/landing/SwiftCargoSolution";
+import Testimonies from "@/components/features/landing/Testimonies";
 import WhyCooseUs from "@/components/features/landing/WhyCooseUs";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyCooseUs />
       <HowItWorks />
       <BusinessStats />
+      <Testimonies />
       <CTA />
     </>
   );
