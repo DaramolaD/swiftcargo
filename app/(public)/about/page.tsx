@@ -3,6 +3,8 @@ import Image from "next/image";
 import aboutBg from "@/public/aboutBg.png";
 import OurPartners from "@/components/features/landing/OurPartners";
 import OurStory from "@/components/features/about/OurStory";
+import OurPurpose from "@/components/features/about/OurPurpose";
+import CTA from "@/components/features/landing/CTA";
 
 const About = () => {
   return (
@@ -13,20 +15,14 @@ const About = () => {
             <h1 className="text-4xl font-medium text-Dark_One">
               About SwiftCargo
             </h1>
-            <div className="flex flex-col gap-4">
-              <p className="text-2xl text-Dark_Two">
-                Delivering More Than Goods—We Deliver Peace of Mind
-              </p>
-              <p className="text-xl text-Dark_Paragraph leading-8">
-                Delivering More Than Goods—We Deliver Peace of Mind At
-                SwiftCargo, we&apos;re not just a logistics company; we&apos;re
-                your partner in building a supply chain that fuels your business
-                growth. We specialize in fast, reliable, and transparent
-                logistics solutions tailored to help businesses of all sizes
-                meet deadlines, optimize costs, and exceed customer
-                expectations.
-              </p>
-            </div>
+            <p className="text-xl text-Dark_Paragraph leading-8">
+              Delivering More Than Goods—We Deliver Peace of Mind At SwiftCargo,
+              we&apos;re not just a logistics company; we&apos;re your partner
+              in building a supply chain that fuels your business growth. We
+              specialize in fast, reliable, and transparent logistics solutions
+              tailored to help businesses of all sizes meet deadlines, optimize
+              costs, and exceed customer expectations.
+            </p>
           </div>
         </div>
       </section>
@@ -37,6 +33,8 @@ const About = () => {
       />
       <OurPartners />
       <OurStory />
+      <OurPurpose />
+      <CTA />
     </>
   );
 };
