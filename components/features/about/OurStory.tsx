@@ -2,12 +2,10 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <section className="w-full flex flex-col gap-12 py-20">
+    <section className="w-full flex flex-col gap-12 py-10">
       <div className="container mx-auto flex flex-col px-5">
         <div className="flex flex-col gap-5 md:gap-10">
-          <h1 className="text-4xl font-medium text-Dark_One">
-            About SwiftCargo
-          </h1>
+          <h1 className="text-4xl font-medium text-Dark_One">Our Story</h1>
           <div className="flex flex-col gap-4 md:gap-8">
             <div className="flex flex-col gap-2">
               <h3 className="text-2xl text-Dark_Two font-medium leading-8">
