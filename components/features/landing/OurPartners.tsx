@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import Dribble from "@/public/Dribbble.png";
-import Facebook from "@/public/Facebook.png";
-import Google from "@/public/Google.png";
-import Webflow from "@/public/Webflow.png";
-import Youtube from "@/public/Youtube.png";
+import Dribble from "@/public/images/Dribbble.png";
+import Facebook from "@/public/images/Facebook.png";
+import Google from "@/public/images/Google.png";
+import Webflow from "@/public/images/Webflow.png";
+import Youtube from "@/public/images/Youtube.png";
 import { motion } from "framer-motion";
 import Image from "next/image";
 

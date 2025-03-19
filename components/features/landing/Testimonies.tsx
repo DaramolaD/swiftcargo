@@ -43,7 +43,7 @@ const Testimonies = () => {
     },
   ];
   return (
-    <section className="py-20 flex flex-col md:items-center px-5 md:px-6 bg-Biscay-50">
+    <section id="testimonials" className="py-20 flex flex-col md:items-center px-5 md:px-6 bg-Biscay-50">
       <div className="container flex flex-col gap-10 md:gap-10 mx-auto md:px-6">
         <div className="flex flex-col md:flex-row justify-between gap-10 px-4">
           <div className="flex w-full flex-col text-left gap-3 md:gap-5">

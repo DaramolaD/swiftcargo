@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ctaImg from "@/public/ctaImg.png";
+import ctaImg from "@/public/images/ctaImg.png";
 import { Button } from "@/components/ui/button";
 
 const CTA = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import worryLady from "@/public/worrrylady.png";
+import worryLady from "@/public/images/worrrylady.png";
 
 const LogisticsProblems = () => {
   return (
