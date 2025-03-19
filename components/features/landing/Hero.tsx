@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import HeroBg from "@/public/heroBg.png";
+import HeroBg from "@/public/images/heroBg.png";
 
 const Hero = () => {
   return (

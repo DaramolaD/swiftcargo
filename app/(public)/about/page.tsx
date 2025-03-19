@@ -1,27 +1,29 @@
 import React from "react";
 import Image from "next/image";
-import aboutBg from "@/public/aboutBg.png";
+import aboutBg from "@/public/images/aboutBg.png";
 import OurPartners from "@/components/features/landing/OurPartners";
 import OurStory from "@/components/features/about/OurStory";
 import OurPurpose from "@/components/features/about/OurPurpose";
 import CTA from "@/components/features/landing/CTA";
+import PageHeader from "@/components/features/PageHeader";
+import TeamMate from "@/components/features/about/TeamMate";
 
 const About = () => {
   return (
     <>
-      <section className="w-full flex flex-col gap-12 pt-48 pb-12">
+      <section className="w-full flex flex-col gap-12 pb-12">
+        <PageHeader title="About Page" />
         <div className="container mx-auto flex flex-col px-5">
           <div className="flex flex-col gap-5">
-            <h1 className="text-4xl font-medium text-Dark_One">
-              About SwiftCargo
-            </h1>
+            <h2 className="text-3xl max-w-xl font-medium text-Dark_One">
+              SwiftCargo - Delivering More Than Goods, We Deliver Peace of Mind
+            </h2>
             <p className="text-xl text-Dark_Paragraph leading-8">
-              Delivering More Than Goods—We Deliver Peace of Mind At SwiftCargo,
-              we&apos;re not just a logistics company; we&apos;re your partner
-              in building a supply chain that fuels your business growth. We
-              specialize in fast, reliable, and transparent logistics solutions
-              tailored to help businesses of all sizes meet deadlines, optimize
-              costs, and exceed customer expectations.
+              At SwiftCargo, we&apos;re more than just a logistics provider—we&apos;re
+              your growth partner. Our mission is to simplify supply chains with
+              fast, transparent, and cost-effective logistics solutions, helping
+              businesses meet deadlines, reduce costs, and exceed customer
+              expectations.
             </p>
           </div>
         </div>
@@ -34,6 +36,7 @@ const About = () => {
       <OurPartners />
       <OurStory />
       <OurPurpose />
+      <TeamMate />
       <CTA />
     </>
   );

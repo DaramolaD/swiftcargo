@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ContainerImg from "@/public/container.png";
+import ContainerImg from "@/public/images/container.png";
 import { CircleCheckBig } from "lucide-react";
 
 const SwiftCargoSolution = () => {

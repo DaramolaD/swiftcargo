@@ -4,7 +4,7 @@ import timer from "@/public/icons/timer.svg";
 import map from "@/public/icons/map-pin.svg";
 import dollar from "@/public/icons/dollar-sign.svg";
 import laptop from "@/public/icons//laptop.svg";
-import devices from "@/public/devices.png";
+import devices from "@/public/images/devices.png";
 
 const WhyCooseUs = () => {
   return (
