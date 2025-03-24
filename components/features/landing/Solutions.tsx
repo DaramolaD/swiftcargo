@@ -1,10 +1,5 @@
-import Image from "next/image";
 import React from "react";
-import FreightIcon from "@/public/icons/bus.svg";
-import WarehouseIcon from "@/public/icons/warehouse.svg";
-import CustomsIcon from "@/public/icons/boxes.svg";
-import MarineIcon from "@/public/icons/routing.svg";
-import { LifeBuoy, ShieldCheck, Truck, TruckIcon, Warehouse } from "lucide-react";
+import { LifeBuoy, ShieldCheck, TruckIcon, Warehouse } from "lucide-react";
 
 const Solutions = () => {
   const logisticsServices = [
@@ -60,7 +55,8 @@ const Solutions = () => {
           Comprehensive Logistics Solutions
         </h2>
         <p className="text-Dark_Paragraph text-lg md:text-xl text-left md:text-center max-w-[1120px]">
-          From global freight services to offshore marine support, we provide tailored logistics solutions to streamline your supply chain.
+          From global freight services to offshore marine support, we provide
+          tailored logistics solutions to streamline your supply chain.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
@@ -74,7 +70,10 @@ const Solutions = () => {
               alt={service.title}
               className={`w-12 h-12 ${service.hText}`}
             /> */}
-            <service.icon className={`w-12 h-12 ${service.hText}`} strokeWidth={1.1}/>
+            <service.icon
+              className={`w-12 h-12 ${service.hText}`}
+              strokeWidth={1.1}
+            />
             <div className="flex flex-col gap-2.5">
               <h3 className={`font-medium text-2xl ${service.hText}`}>
                 {service.title}
