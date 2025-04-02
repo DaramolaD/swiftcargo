@@ -23,39 +23,36 @@ const SwiftCargoSolution = () => {
           </p>
 
           <p className="text-xl md:text-xl text-Dark_One font-normal">
-            {" "}
             How We Solve Your Logistics Problems:
           </p>
           <ul className="flex flex-col gap-2.5 font-normal text-base md:text-lg text-Dark_Paragraph">
             <li>
               <CircleCheckBig className="pr-2 size-8 inline-block" />
-              <span
-                className="pr-2 font-medium text-Dark_Two"
-              >
-                Missed Deadlines?
+              <span className="pr-2 font-medium text-Dark_Two">
+                Always On Time:
               </span>
-              Late shipments cost you time and money.
+              Get your cargo delivered when you expect it.
             </li>
             <li>
               <CircleCheckBig className="pr-2 size-8 inline-block" />
               <span className="pr-2 font-medium text-Dark_Two">
-                No Visibility?
+                Seamless Tracking:
               </span>
-              Unclear tracking leaves you in the dark.
+              Know where your shipment is at all times.
             </li>
             <li>
               <CircleCheckBig className="pr-2 size-8 inline-block" />
               <span className="pr-2 font-medium text-Dark_Two">
-                Unexpected Costs?
+                No Hidden Fees:
               </span>
-              Hidden fees eat into your profits.
+              Transparent pricing, so you plan with confidence.
             </li>
             <li>
               <CircleCheckBig className="pr-2 size-8 inline-block" />
               <span className="pr-2 font-medium text-Dark_Two">
-                Too Many Vendors?
+                One Platform for Everything:
               </span>
-              Juggling multiple logistics partners is exhausting.
+              Manage shipments without juggling multiple vendors.
             </li>
           </ul>
           <p className="text-lg text-Dark_Paragraph font-normal">

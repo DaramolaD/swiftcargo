@@ -65,11 +65,6 @@ const Solutions = () => {
             key={service.id}
             className={`flex flex-col gap-10 py-10 px-5 md:p-10 rounded-2xl ${service.bg}`}
           >
-            {/* <Image
-              src={service.icon}
-              alt={service.title}
-              className={`w-12 h-12 ${service.hText}`}
-            /> */}
             <service.icon
               className={`w-12 h-12 ${service.hText}`}
               strokeWidth={1.1}
