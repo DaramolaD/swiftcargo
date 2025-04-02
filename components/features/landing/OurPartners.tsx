@@ -16,6 +16,7 @@ const OurPartners = () => {
     { src: Webflow, alt: "webflow" },
     { src: Youtube, alt: "youtube" },
   ];
+
   return (
     <section className="container mx-auto py-12 flex flex-col items-center px-5 md:px-6">
       <h2 className="text-xl md:text-2xl font-medium">
@@ -23,16 +24,16 @@ const OurPartners = () => {
       </h2>
       <div className="w-full overflow-hidden relative py-10">
         <motion.div
-          className="flex space-x-10 min-w-max"
+          className="flex items-center gap-10 min-w-max"
           initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
+          animate={{ x: "-50%" }}
           transition={{
             repeat: Infinity,
             ease: "linear",
             duration: 10, // Adjust speed here
           }}
         >
-           {[...brands, ...brands].map((brand, index) => (
+          {[...brands, ...brands].map((brand, index) => (
             <Image
               key={index}
               src={brand.src}

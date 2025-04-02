@@ -57,7 +57,7 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="flex flex-col bg-white md:items-center gap-8 py-10 px-5 md:p-10 border rounded-lg"
+              className="flex flex-col bg-white sm:items-center gap-8 py-10 px-5 md:p-10 border rounded-lg"
             >
               <p
                 className={`w-fit text-2xl md:text-3xl p-5 font-medium flex items-center justify-center ${step.textColor} ${step.bgColor} rounded-full`}
@@ -65,8 +65,8 @@ const HowItWorks = () => {
                 {step.number}
               </p>
 
-              <div className="flex flex-col gap-2.5">
-                <div className="flex flex-col sm:flex-row items-center gap-2.5">
+              <div className="flex flex-col sm:items-center gap-2.5">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-2.5">
                   <Image src={step.icon} alt="Step icon" className="size-10" />
                   <p className="text-xl md:text-2xl font-medium text-Dark_One">
                     {step.title}
