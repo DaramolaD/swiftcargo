@@ -10,7 +10,6 @@ const Contact = () => {
     <section className="w-full flex flex-col gap-20 pb-20">
       <PageHeader title="Contact Page" />
       <div className="container mx-auto flex flex-col gap-5 px-5">
-
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           {/* Contact Information */}
           <div className="flex flex-col gap-0">
@@ -73,7 +72,8 @@ const Contact = () => {
                   className="mt-2"
                 />
               </div>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+              <Button variant="default" size="lg"  className="hover:shadow-lg w-full hover:text-white/60 transition-all duration-300 ease-in-out"
+            >
                 Send Message
               </Button>
             </form>

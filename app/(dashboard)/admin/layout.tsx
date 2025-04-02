@@ -1,5 +1,5 @@
-import DashboardHeader from "@/components/shared/DashboardHeader";
-import DashboardSidebar from "@/components/shared/DashboardSidebar";
+// import DashboardHeader from "@/components/shared/DashboardHeader";
+// import DashboardSidebar from "@/components/shared/DashboardSidebar";
 
 export default function PublicLayout({
   children,
@@ -8,9 +8,9 @@ export default function PublicLayout({
 }) {
   return (
     <div className="flex min-h-screen">
-      <DashboardSidebar />
+      {/* <DashboardSidebar /> */}
       <div className="flex-1 font-inter flex w-full flex-col overflow-hidden bg-[#ffff]">
-        <DashboardHeader />
+        {/* <DashboardHeader /> */}
         <main className="container flex-1 w-full mx-auto overflow-y-scroll bg-[#ffff]">
           {children}
         </main>
